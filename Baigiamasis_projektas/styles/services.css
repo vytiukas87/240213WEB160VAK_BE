@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
+
+* {
+ 
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.button {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.hidden {
+  display: none;
+}
+
+section > * {
+  width: 1200px;
+}
+
+nav {
+  padding: 2rem 0;
+}
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-4 {
+  gap: 4rem;
+}
+
+.gap-8 {
+  gap: 8rem;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.cta-button {
+  padding: 11px 16px;
+  background: #20ad96;
+  color: white;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+}
+
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-col {
+  width: 30%;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+h5 {
+  padding-bottom: 1rem;
+}
+
+.bottom-footer {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-col > ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-decoration: none;
+}
+
+.nav-col > ul > li > a {
+  color: rgba(0, 0, 0, 0.719);
+  text-decoration: none;
+}
+
+.nav-icons > a > img {
+  width: 32px;
+}
+
+input[type="text"] {
+  outline: 0;
+  border: 1px solid whitesmoke;
+  padding: 12px 8px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.cta-button-2 {
+  padding: 16px 30px;
+  border-radius: 6px;
+  background: #20ad96;
+}
+
+.cta-button > a {
+  color: white;
+}
+
+.w-max {
+  width: max-content;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 72px;
+  color: #333461;
+}
+
+header {
+  color: #4a556c;
+  font-size: 16px;
+}
+
+p {
+  color: #4a556c;
+  font-size: 18px;
+}
+
+.hero {
+  background: #faf8f6;
+  padding: 2rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.w-300px {
+  width: 300px;
+}
+
+.h-250px {
+  height: 250px;
+}
+
+.h-72px {
+  height: 72px;
+}
+
+.w-72px {
+  width: 72px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+
+
