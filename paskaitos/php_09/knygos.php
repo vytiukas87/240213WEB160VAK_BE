@@ -1,5 +1,5 @@
-<?php include 'parts/header.php'; ?>
-<?php include 'parts/navbar.php'; ?>
+<?php include 'header.php'; ?>
+<?php include 'navbar.php'; ?>
 
         <header class="bg-light text-dark pt-5 pb-5">
             <div class="container">
@@ -11,16 +11,6 @@
                 </div>
             </div>
         </header>
-
-        <?php
-            $sql = 'SELECT * FROM `knygos`;';
-            $result = $conn->query($sql);
-            // print_r($result);
-            if ($result->num_rows > 0) {
-                print_r($result->fetch_assoc());
-
-            }
-        ?>
 
         <div class="content pt-5 pb-5">
             <div class="container">
@@ -103,4 +93,4 @@
             </div>
         </div>
 
-<?php include 'parts/footer.php'; ?>
+<?php include 'footer.php'; ?>

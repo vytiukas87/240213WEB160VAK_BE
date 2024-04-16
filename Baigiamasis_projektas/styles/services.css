@@ -1,5 +1,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
 
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.smaller-container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 15px;
+  overflow: hidden;
+  line-break: unset;
+  font-size: 16px;
+  color: rgba(74, 85, 108, 1);
+  font-family: sans-serif;
+}
+
+.menu li {
+  list-style: none;
+  margin-left: 15px;
+  overflow: hidden;
+  line-break: unset;
+  font-size: 16px;
+  color: rgba(74, 85, 108, 1);
+  font-family: sans-serif;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #4a556c;
+}
+
+.menubutton {
+  font-size: 14px;
+  padding: 10px 20px;
+  /* margin: 5px; */
+  background-color: rgba(32, 173, 150, 1);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 * {
  
   padding: 0;
