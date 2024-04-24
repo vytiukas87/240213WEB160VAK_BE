@@ -1,32 +1,6 @@
-<!DOCTYPE html>
-</body>
-</html>
+<?php get_header(); ?>
 
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Baigiamasis_projektas</title>
-    <link rel="stylesheet" href="styles/services.css" />
-  </head>
-  <body>
-    <div class="header">
-      <div class="container">
-        <img src="images\Logo.png" alt="logo" />
-        <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="/services.html">Services</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Extra salespage</a></li>
-          <li>
-            <a href="#"
-              ><button class="menubutton">Get your free guide now</button></a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
-      <section class="hero">
+<section class="hero">
         <main class="flex justify-between items-center gap-8">
           <div class="w-half flex flex-col gap-2">
             <header>I can help you in these patricular areas.</header>
@@ -39,7 +13,7 @@
             </p>
           </div>
           <div class="w-half">
-            <img class="w-full" src="images/services-hero.svg" alt="" />
+            <img class="w-full" src="<?php echo get_template_directory_uri(); ?>/images/services-hero.svg" alt="" />
           </div>
         </main>
       </section>
@@ -53,7 +27,7 @@
         <div class="flex flex-col gap-1">
           <div class="flex gap-1">
             <div class="w-300px h-250px p-4 border flex flex-col gap-2">
-              <img class="w-72px" src="images/groupcoaching.svg" alt="" />
+              <img class="w-72px" src="<?php echo get_template_directory_uri(); ?>/images/groupcoaching.svg" alt="" />
               <h3>Group Coaching Sessions</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -62,7 +36,7 @@
               </p>
             </div>
             <div class="w-300px h-250px p-4 border flex flex-col gap-2">
-              <img class="w-72px" src="images/groupcoaching.svg" alt="" />
+              <img class="w-72px" src="<?php echo get_template_directory_uri(); ?>/images/groupcoaching.svg" alt="" />
               <h3>Group Coaching Sessions</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -74,7 +48,7 @@
 
           <div class="flex gap-1">
             <div class="w-300px h-250px p-4 border flex flex-col gap-2">
-              <img class="w-72px" src="images/groupcoaching.svg" alt="" />
+              <img class="w-72px" src="<?php echo get_template_directory_uri(); ?>/images/groupcoaching.svg" alt="" />
               <h3>Group Coaching Sessions</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -83,7 +57,7 @@
               </p>
             </div>
             <div class="w-300px h-250px p-4 border flex flex-col gap-2">
-              <img class="w-72px" src="images/groupcoaching.svg" alt="" />
+              <img class="w-72px" src="<?php echo get_template_directory_uri(); ?>/images/groupcoaching.svg" alt="" />
               <h3>Group Coaching Sessions</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -112,7 +86,7 @@
           <div class="flex justify-between items-center">
             <ul class="w-half flex flex-col gap-2">
               <li class="flex gap-2 items-to">
-                <img src="images/chat-icon.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/chat-icon.svg" alt="" />
                 <div class="flex flex-col gap-1">
                   <h3>Schedule a meeting</h3>
                   <p>
@@ -123,7 +97,7 @@
               </li>
 
               <li class="flex gap-2 items-to">
-                <img src="images/chat-icon.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/chat-icon.svg" alt="" />
                 <div class="flex flex-col gap-1">
                   <h3>Online consultation</h3>
                   <p>
@@ -134,7 +108,7 @@
               </li>
 
               <li class="flex gap-2 items-to">
-                <img src="images/chat-icon.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/chat-icon.svg" alt="" />
                 <div class="flex flex-col gap-1">
                   <h3>Ready to start? Let’s talk!</h3>
                   <p>
@@ -145,7 +119,7 @@
               </li>
 
               <li class="flex gap-2 items-to">
-                <img src="images/chat-icon.svg" alt="" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/chat-icon.svg" alt="" />
                 <div class="flex flex-col gap-1">
                   <h3>Talk to me first</h3>
                   <p>
@@ -156,38 +130,11 @@
               </li>
             </ul>
 
-            <img src="images/andrea.png" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/andrea.png" alt="" />
           </div>
         </div>
       </div>
     </section>
 
-    <footer class="footer">
+    <?php get_footer(); ?>
 
-
-          <div class="bottom-footer">
-            <span style="display: flex; gap: 8px; align-items: center">
-              Made with a
-              <img style="width: 24px" src="images/hexagonSmile.svg" alt="" />
-              by
-              <span style="font-weight: bold">HappyDigital</span>
-            </span>
-
-            <div class="nav-icons">
-              <a href="https://linkedin.com"
-                ><img src="images/linkedIn.svg" alt="LinkedIn"
-              /></a>
-              <a href="https://facebook.com"
-                ><img src="images/facebook.svg" alt="Facebook"
-              /></a>
-              <a href="https://basketball.com"
-                ><img src="images/basketball.svg" alt="Basketball"
-              /></a>
-            </div>
-          </div>
-        </footer>
-      </section>
-    </div>
-  </footer>
-  </body>
-</html>

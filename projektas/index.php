@@ -1,34 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Baigiamasis_projektas</title>
-    <link rel="stylesheet" href="styles/index.css" />
-  </head>
-  <body>
-    
-    <div class="header">
-      <div class="container">
-        <img src="images\Logo.png" alt="logo" />
-        <ul class="menu">
-          <li><a href="#">Home</a></li>
-          <li><a href="/services.html">Services</a></li>
-          <li><a href="#">About us</a></li>
-          <li><a href="#">Extra salespage</a></li>
-          <li>
-            <a href="#"
-              ><button class="menubutton">Get your free guide now</button></a
-            >
-          </li>
-        </ul>
-      
-      </div>
+
+<?php get_header(); ?>
+
+    </div>
     </div>
     <div class="intro">
       <div class="container">
         <div class="intro-text">
-          <img class="abstract1" src="images/Vector.svg" alt="vector" />
+          <img class="abstract1" src="<?php echo get_template_directory_uri(); ?>/images/Vector.svg" alt="vector" />
           <p>Proven strategies backed by science for success.</p>
           <h1>Live life at the full potential</h1>
           <p>
@@ -40,14 +18,14 @@
           <button class="menubutton">Get your free guide now</button>
         </div>
         <div class="intro-photo">
-          <img src="images/andrea.png" alt="Andrea" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/andrea.png" alt="Andrea" />
         </div>
       </div>
     </div>
     <div class="article">
       <div class="smaller-container">
         <div class="artical-title">
-          <img src="images/Vector.svg" alt="vector" />
+          <img src="<?php echo get_template_directory_uri(); ?>/images/Vector.svg" alt="vector" />
           <h2>I can help you in these particular areas.</h2>
         </div>
         <div class="article-content">
@@ -72,7 +50,7 @@
       <div class="smaller-container">
         <ul>
           <li class="news-card">
-            <img src="images/Image.png" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/Image.png" alt="" />
             <div class="news-card-content">
               <h3>Balancing your love and<br />work life</h3>
               <p>
@@ -83,7 +61,7 @@
             </div>
           </li>
           <li class="news-card">
-            <img src="images/image blog.png" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/image blog.png" alt="" />
             <div class="news-card-content">
               <h3>
                 A short break from Social<br />
@@ -97,7 +75,7 @@
             </div>
           </li>
           <li class="news-card">
-            <img src="images/Image (1).png" alt="" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/Image (1).png" alt="" />
             <div class="news-card-content">
               <h3>
                 How to be 1% Better Every<br />
@@ -114,32 +92,4 @@
         <a class="news-button" href="/blog">Read more blogs</a>
       </div>
     </div>
-
-    
-
-
-    <footer class="footer">
-      
-        <div class="bottom-footer">
-          <span style="display: flex; gap: 8px; align-items: center">
-            Made with a
-            <img style="width: 24px" src="images/hexagonSmile.svg" alt="" /> by
-            <span style="font-weight: bold">HappyDigital</span>
-          </span>
-
-          <div class="nav-icons">
-            <a href="https://linkedin.com"
-              ><img src="images/linkedIn.svg" alt="LinkedIn"
-            /></a>
-            <a href="https://facebook.com"
-              ><img src="images/facebook.svg" alt="Facebook"
-            /></a>
-            <a href="https://basketball.com"
-              ><img src="images/basketball.svg" alt="Basketball"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+    <?php get_footer(); ?>

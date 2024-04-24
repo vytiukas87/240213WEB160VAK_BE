@@ -1,4 +1,6 @@
-
+/*
+Theme Name:  projektas
+*/
 @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap");
 
 body {
@@ -26,17 +28,10 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  
 }
 
-.menu li {
-  list-style: none;
-  margin-left: 15px;
-  overflow: hidden;
-  line-break: unset;
-  font-size: 16px;
-  color: rgba(74, 85, 108, 1);
-  font-family: sans-serif;
-}
+
 
 .menu li {
   list-style: none;
@@ -51,6 +46,7 @@ body {
 .menu li a {
   text-decoration: none;
   color: #4a556c;
+  
 }
 
 .menubutton {
@@ -134,6 +130,7 @@ h1 {
 
 ul {
   list-style-type: none;
+ 
 }
 .social-icons .a image {
   margin-right: auto;
@@ -216,7 +213,6 @@ ul {
   justify-content: space-between;
   gap: 1rem;
 }
-
 .news {
   padding-top: 106px;
 }
@@ -229,6 +225,7 @@ ul {
   align-items: center;
   flex-direction: column;
 }
+
 
 .news-button {
   color: white;
@@ -369,10 +366,7 @@ ul {
   text-decoration: none;
 }
 
-.nav-col > ul > li > a {
-  color: rgba(0, 0, 0, 0.719);
-  text-decoration: none;
-}
+
 
 .bottom-footer {
   padding: 25px;
@@ -389,38 +383,7 @@ ul {
   width: 32px;
 }
 
-.testimonials {
-  padding-top: 106px;
-}
 
-.testimonial-ul {
-  display: flex;
-  gap: 2rem;
-  justify-content: space-between;
-}
-
-.testimonial-card {
-  box-shadow: 4px 4px 25px #b1bac88e;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-}
-
-.testimonial-card > div {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 4px;
-}
-
-.client {
-  height: 48px;
-}
-
-.stars {
-  height: 16px;
-}
 
 footer {
   background-color: #f8f9fa;
